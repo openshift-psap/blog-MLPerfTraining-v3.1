@@ -41,6 +41,15 @@ The OpenShift Unet3D results are within the error bar (one standard deviation fr
 
 <img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/207055aa-55bf-43bb-8179-4e3be27b1350">
 
+## Red Hat OpenShift Benefits 
+
+Red Hat OpenShift made it easy to deploy and monitor the containerized ML applications used in this benchmark.  Red Hat Openshift Operators and the Nvidia GPU Operator discovered, configured and enabled the GPU and storage resources used in this benchmark. 
+
+The figure below shows the Operators we installed for the Red Hat/Supermicro MLPerf trianing v3.1 submission: 
+
+![OC-console-Operators (1)](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/a3845b90-d1db-41c7-affd-23361ae1a9ff)
+
+
 
 ## Conclusions 
 
