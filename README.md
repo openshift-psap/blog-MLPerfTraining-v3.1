@@ -11,12 +11,14 @@ In this blog we provide the performance numbers of our recent submission to MLPe
 
 OpenShift performed excepetionally well when compared to baremetal (Ubuntu only) results, on the same Superimcro GPU A+ Server with 8XH100 GPUs. 
 
-We have two impressive MLPerf training v3.1 benchmark submissions using Red Hat Openshift 4.13, on a Supermicro GPU A+ Server with 8 directly attached Nvidia H100 GPUs.  The Red Hat/Supermicro MLPerf Training v3.1 benchmark results closely match baremetal results (within the error bar +/- 1 standard deviation of the mean). 
+We have two impressive MLPerf training v3.1 benchmark submissions using Red Hat Openshift 4.13, on a Supermicro GPU A+ Server with 8 directly attached Nvidia H100 GPUs.  The Red Hat/Supermicro MLPerf Training v3.1 benchmark results closely match baremetal results (within the error bar +/- 1 standard deviation of the mean). We ran MLPerf training with Supermicro GPU A+ Server (with 8XH100 Nvidia GPUs), and compared our results with baremetal (Ubuntu results) on the same hardware.  
 
 
-Overall, this shows that running these training benchmarks on OpenShift did not add significant overhead and has time-to-train similar to baremetal. We ran MLPerf training with Supermicro GPU A+ Server (with 8XH100 Nvidia GPUs), and compared our results with baremetal (Ubuntu results) on the same hardware.   The take away is that Red Hat OpenShift makes it easier to run, reproduce and monitor your AI/ML workloads, while adding minimal overhead to your training jobs.
+Overall, this shows that running these training benchmarks on OpenShift did not add significant overhead and has time-to-train similar to baremetal.  Red Hat OpenShift makes it easier to run, reproduce and monitor your AI/ML workloads, while adding minimal overhead to your training jobs.
 
-MLPerf is the industry standard open-source Machine Learning (ML) Benchmark with real world workloads for Natural Languge Processing (NLP), Computer Vision (image classification, object detection & medical image segmentation). The MLPerf Training benchmark suite measures how fast the system can train a model to a target accuracey. We ran MLPerf training with 8XH100 Nvidia GPU, and compared our results with baremetal (Ubuntu results) on the same hardware.
+## MLPerf Training Benchmark
+
+MLPerf is the industry standard open-source Machine Learning (ML) Benchmark with real world workloads for Natural Languge Processing (NLP), Computer Vision (image classification, object detection & medical image segmentation). The MLPerf Training benchmark suite measures how fast the system can train a model to a target accuracy. 
 
 ## ResNet 50 
 
