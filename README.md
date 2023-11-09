@@ -26,8 +26,7 @@ ResNet-50 is a popular model for performing image classifiation.
 
 The following graphs show ResNet-50 training results.  The Red Hat OpenShift 4.13 training result is within .4% of the baremetal ResNet-50 results. 
 
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Resnet_Density.png">
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/ResNet_BoxPlot.png">
+<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Resnet_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/ResNet_BoxPlot.png">
 
 ## Unet3D
 
@@ -36,8 +35,7 @@ The Unet3D model performs a 3D medial image segmentation task using the 2019 Kid
 
 The OpenShift Unet3D results are within the error bar (one standard deviation from the mean ) of the baremetal results.  The Unet3D benchmark has a random component which makes it useful to view the results in terms of standard deviation, or spread of the data, rather than representing the result as one number. 
 
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Density.png">
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Boxplot.jpeg">
+<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Boxplot.jpeg">
 
 ## Red Hat OpenShift Benefits 
 
