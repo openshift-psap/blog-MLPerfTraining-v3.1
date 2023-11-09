@@ -38,16 +38,22 @@ The Unet3D model performs a 3D medial image segmentation task using the 2019 Kid
 The OpenShift Unet3D results are within the error bar (one standard deviation from the mean ) of the baremetal results.  The Unet3D benchmark has a random component which makes it useful to view the results in terms of standard deviation, or spread of the data, rather than representing the result as one number. 
 
 <img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/2d1ec0b4-0ea7-481a-aee0-406a661b6995">
-
 <img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/207055aa-55bf-43bb-8179-4e3be27b1350">
 
 ## Red Hat OpenShift Benefits 
 
 Red Hat OpenShift made it easy to deploy and monitor the containerized ML applications used in this benchmark.  Red Hat Openshift Operators and the Nvidia GPU Operator discovered, configured and enabled the GPU and storage resources used in this benchmark. 
 
-The figure below shows the Operators we installed for the Red Hat/Supermicro MLPerf trianing v3.1 submission: 
+## Operators
+The figure below shows the Operators we installed for the Red Hat/Supermicro MLPerf trianing v3.1 submission.  These operators automate many tasks associated with discovering and configuring cluster resources making it much easier to operator you clusters.
 
 ![OC-console-Operators (1)](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/a3845b90-d1db-41c7-affd-23361ae1a9ff)
+
+## Nvidia GPU Operator Dashboard
+
+As shown in the following figure the Nvidia GPU ultizaiton is a useful tool when determine if your GPUs are over or under utilized when tuning an AI/ML application.  This dashboard is a screen available in the Red Hat OpenShift web console: 
+
+![OC-console-GPU-Util4](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/assets/3208719/5cb30816-30ad-48da-a4b9-ff13b2c09a2a)
 
 
 
