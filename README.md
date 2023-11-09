@@ -39,7 +39,7 @@ The OpenShift Unet3D results are within the error bar (one standard deviation fr
 
 ## Red Hat OpenShift Benefits 
 
-Red Hat OpenShift made it easy to deploy and monitor the containerized ML applications used in this benchmark.  Red Hat Openshift Operators and the Nvidia GPU Operator discovered, configured and enabled the GPU and storage resources used in this benchmark. 
+Red Hat OpenShift made it easy to deploy and monitor the containerized ML applications used in this benchmark.  Red Hat Openshift Operators and the Nvidia GPU Operator discovered, configured and enabled the GPUs and locally attached storage (NVMe drives) used in this benchmark. 
 
 ## Operators
 The figure below shows the Operators we installed for the Red Hat/Supermicro MLPerf trianing v3.1 submission.  These operators automate many tasks associated with discovering and configuring cluster resources making it much easier to operator you clusters.
