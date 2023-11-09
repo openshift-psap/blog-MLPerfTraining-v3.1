@@ -22,7 +22,7 @@ MLPerf is the industry standard open-source Machine Learning (ML) Benchmark with
 
 ## ResNet 50 
 
-ResNet-50 is a popular model for performaing image classifiation.  
+ResNet-50 is a popular model for performing image classifiation.  
 
 The following graphs show ResNet-50 training results.  The Red Hat OpenShift 4.13 training result is within .4% of the baremetal ResNet-50 results. 
 
