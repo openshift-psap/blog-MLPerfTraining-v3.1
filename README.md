@@ -1,5 +1,5 @@
 # Quantifying performance of Red Hat OpenShift for Machine Learning (ML) Training on Supermicro  A+ Servers with MLPerf Training v3.1
-
+November xx, 2023 | Diane Feddema
 ## Summary
 We are proud to announce the first MLPerf Training submission on OpenShift, which is also the first ever MLPerf training submission on a variant of Kubernetes.  This demonstates the power of OpenShift to solve real world ML problems efficiently while providing all the benefits of enterprise Kubernetes container orchestration. Red Hat partnered with Supermicro on this submisison and ran the benchmarks on a Supermicro GPU A+ Server with 8XH100 Nvidia GPUs. Red Hat OpenShift is leading the way in making it easier to run, reproduce and monitor your AI/ML workloads, while adding minimal overhead to your training jobs.  
 
