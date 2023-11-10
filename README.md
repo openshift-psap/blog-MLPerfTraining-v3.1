@@ -45,11 +45,13 @@ Red Hat OpenShift made it easy to deploy and monitor the containerized ML applic
 The figure below shows the Operators we installed for the Red Hat/Supermicro MLPerf trianing v3.1 submission.  These operators automate many tasks associated with discovering and configuring cluster resources making it much easier to operator you clusters.
 
 
+
 ![OC-console-GPU-Util4](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Operators_screenshot.jpeg)
 
 ## Nvidia GPU Operator Dashboard
 
 As shown in the following figure the Nvidia GPU ultizaiton is a useful tool when determine if your GPUs are over or under utilized when tuning an AI/ML application.  This dashboard is a screen available in the Red Hat OpenShift web console: 
+
 
 ![OC-console-GPU-Util4](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/NvidiaGPUOPeratorDashboard.jpeg)
 
