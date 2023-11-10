@@ -11,7 +11,7 @@ In this blog we provide the performance numbers of our recent submission to MLPe
 
 OpenShift performed excepetionally well when compared to baremetal (Ubuntu only) results, on the same Superimcro GPU A+ Server with 8XH100 GPUs. 
 
-We have two impressive MLPerf training v3.1 benchmark submissions using Red Hat Openshift 4.13, on a Supermicro GPU A+ Server with 8 directly attached Nvidia H100 GPUs.  The Red Hat/Supermicro MLPerf Training v3.1 benchmark results closely match baremetal results (within the error bar +/- 1 standard deviation of the mean). We ran MLPerf training with Supermicro GPU A+ Server (with 8XH100 Nvidia GPUs), and compared our results with baremetal (Ubuntu results) on the same hardware.  
+We have two impressive MLPerf training v3.1 benchmark submissions using Red Hat Openshift 4.13, on a Supermicro GPU A+ Server with 8 directly attached Nvidia H100 GPUs.  The Red Hat/Supermicro MLPerf Training v3.1 benchmark results closely match baremetal results (within the error bar +/- 1 standard deviation of the mean). We ran MLPerf training with Supermicro GPU A+ Server 8XH100, and compared our results with baremetal (Ubuntu results) on the same hardware.  
 
 
 Overall, this shows that running these training benchmarks on OpenShift did not add significant overhead and has time-to-train similar to baremetal.  Red Hat OpenShift makes it easier to run, reproduce and monitor your AI/ML workloads, while adding minimal overhead to your training jobs.
