@@ -18,7 +18,7 @@ Overall, this shows that running these training benchmarks on OpenShift did not 
 
 ## MLPerf Training Benchmark
 
-MLPerf is the industry standard open-source Machine Learning (ML) Benchmark with real world workloads for Natural Languge Processing (NLP), Computer Vision (image classification, object detection & medical image segmentation). The MLPerf Training benchmark suite measures how fast the system can train a model to a target accuracy. 
+MLPerf is the industry standard open-source Machine Learning (ML) Benchmark with real world workloads for Natural Languge Processing (LLMs), Computer Vision (image classification, object detection & medical image segmentation). The MLPerf Training benchmark suite measures how fast the system can train a model to a target accuracy. 
 
 ## ResNet 50 
 
