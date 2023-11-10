@@ -50,7 +50,7 @@ The figure below shows the Operators we installed for the Red Hat/Supermicro MLP
 
 ## Nvidia GPU Operator Dashboard
 
-As shown in the following figure the Nvidia GPU Operator dashboard is a useful tool when determine if your GPUs are over or under utilized when tuning an AI/ML application.  This dashboard is a screen available in the Red Hat OpenShift web console: 
+As shown in the following figure the Nvidia GPU Operator dashboard is a useful tool for determining if your GPUs are over or under utilized when tuning an AI/ML application.  This dashboard is a screen available in the Red Hat OpenShift web console: 
 
 
 ![OC-console-GPU-Util4](https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/NvidiaGPUOPeratorDashboard.jpeg)
