@@ -35,7 +35,7 @@ The Unet3D model performs a 3D medical image segmentation task using the 2019 Ki
 
 The Red Hat OpenShift Unet3D results are within the error bar (one standard deviation from the mean) of the baremetal results.  The Unet3D benchmark has a random component which makes it useful to view the results in terms of standard deviation, or spread of the data, rather than representing the result as one number. 
 
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3d_boxplot_timetotrain.png">
+<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Unet3D_BoxPlot.png">
 
 ## Red Hat OpenShift Benefits 
 
