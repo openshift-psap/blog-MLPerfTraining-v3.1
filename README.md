@@ -26,7 +26,7 @@ ResNet-50 is a popular model for performing image classification.
 
 The following graphs show ResNet-50 training results.  The Red Hat OpenShift 4.13 training result is within .4% of the baremetal ResNet-50 results. 
 
-<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Resnet_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/ResNet_BoxPlot.png">
+<img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Resnet_Density.png"><img width="468" alt="image" src="https://github.com/openshift-psap/blog-MLPerfTraining-v3.1/blob/main/Resnet_boxplot.png">
 
 ## Unet3D
 
